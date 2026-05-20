@@ -40,20 +40,21 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+                Crafting clean code into,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                powerful applications.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
+                I'm a passionate software engineer with over 2 years of
                 experience crafting digital products that make a difference. My
                 journey started with a curiosity for how things work on the web,
                 and it has evolved into a deep expertise in modern frontend
-                technologies.
+                technologies. I enjoy taking ideas from concept to reality and
+                turning them into meaningful digital experiences.
               </p>
               <p>
                 I specialize in React, Next.js, and TypeScript, building

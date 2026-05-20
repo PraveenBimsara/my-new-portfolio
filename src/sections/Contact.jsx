@@ -14,20 +14,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "praveenbimsara99@gmail.com",
+    href: "mailto:praveenbimsara99@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+94 (78) 589-0185",
+    href: "tel:+94785890185",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
-    href: "#",
+    value: "Aluthgama, Sri Lanka",
+    href: "https://maps.app.goo.gl/wq5W3ydz46PQm7Ew6",
   },
 ];
 
@@ -55,7 +55,7 @@ export const Contact = () => {
 
       if (!serviceId || !templateId || !publicKey) {
         throw new Error(
-          "EmailJS configuration is missing. Please check your environment variables."
+          "EmailJS configuration is missing. Please check your environment variables.",
         );
       }
 
@@ -67,7 +67,7 @@ export const Contact = () => {
           email: formData.email,
           message: formData.message,
         },
-        publicKey
+        publicKey,
       );
 
       setSubmitStatus({
@@ -76,11 +76,10 @@ export const Contact = () => {
       });
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
-      console.error("EmailJS error:", error);
+      console.error("EmailJS error:", err);
       setSubmitStatus({
         type: "error",
-        message:
-          error.text || "Failed to send message. Please try again later.",
+        message: err.text || "Failed to send message. Please try again later.",
       });
     } finally {
       setIsLoading(false);
@@ -243,7 +242,6 @@ export const Contact = () => {
               </div>
               <p className="text-muted-foreground text-sm">
                 I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
                 let's talk!
               </p>
             </div>
