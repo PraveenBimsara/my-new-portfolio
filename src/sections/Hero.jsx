@@ -93,7 +93,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Praveen Bimsara — a passionate Software Engineer
+                Hi, I'm Praveen Bimsara, a passionate Software Engineer
                 specializing in React, Next.js and TypeScript. I focus on
                 building clean, scalable, and user-friendly applications that
                 solve real-world problems.

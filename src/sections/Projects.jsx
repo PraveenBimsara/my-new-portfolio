@@ -2,31 +2,6 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Food Delivering Web App",
-    description:
-      "Through this project, I built a robust application that offers a smooth and engaging user experience, leveraging the power of React JS to create a responsive and interactive platform.",
-    image: "/projects/project1.png",
-    tags: [
-      "React",
-      "Typescript",
-      "Tailwind",
-      "NodeJS",
-      "MongoDB",
-      "Express.js",
-    ],
-    link: "#",
-    github: "https://github.com/PraveenBimsara/food-cabin-app",
-  },
-  {
-    title: "Movie Web App",
-    description:
-      "Developed a feature-rich movie clone app that allows users to discover, organize, and stream movies seamlessly.",
-    image: "/projects/project2.png",
-    tags: ["React", "TypeScript", "Tailwind"],
-    link: "#",
-    github: "https://github.com/PraveenBimsara/movie-x-app",
-  },
-  {
     title: "SD Tours & Travel",
     description:
       "Developed SD Tours & Travel, a full-stack MERN travel booking system that allows users to browse tours, make bookings, and manage reservations through a seamless and responsive web application.",
@@ -41,6 +16,31 @@ const projects = [
     ],
     link: "https://sdtoursandtravel.com/",
     github: "https://github.com/PraveenBimsara/sd-tours-and-travels-frontend",
+  },
+  {
+    title: "Lanka Crown Cinnamon Website",
+    description:
+      "A full-stack e-commerce website for a Sri Lankan Ceylon cinnamon brand, featuring a product catalog, WhatsApp-based ordering system, and an admin dashboard.",
+    image: "/projects/project2.png",
+    tags: ["React", "TypeScript", "Tailwind", "NodeJS", "Express.js", "MongoDB"],
+    link: "https://lankacrowncinnamon.com/",
+    github: "https://github.com/PraveenBimsara/cinnamon-crown",
+  },
+  {
+    title: "Food Delivering Web App",
+    description:
+      "Through this project, I built a robust application that offers a smooth and engaging user experience, leveraging the power of React JS to create a responsive and interactive platform.",
+    image: "/projects/project1.png",
+    tags: [
+      "React",
+      "Typescript",
+      "Tailwind",
+      "NodeJS",
+      "MongoDB",
+      "Express.js",
+    ],
+    link: "#",
+    github: "https://github.com/PraveenBimsara/food-cabin-app",
   },
   {
     title: "Gym Web App",
