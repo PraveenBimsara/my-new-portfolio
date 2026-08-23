@@ -57,7 +57,7 @@ export const About = () => {
                 turning them into meaningful digital experiences.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
+                I specialize in React.js, Next.js, and TypeScript, building
                 everything from sleek landing pages to complex enterprise
                 applications. My approach combines technical excellence with a
                 keen eye for design and user experience.

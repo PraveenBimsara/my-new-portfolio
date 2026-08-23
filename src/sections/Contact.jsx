@@ -26,8 +26,8 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Aluthgama, Sri Lanka",
-    href: "https://maps.app.goo.gl/wq5W3ydz46PQm7Ew6",
+    value: "Kalutara, Sri Lanka",
+    href: "https://maps.app.goo.gl/BPFd3afJEhYYvpa6A",
   },
 ];
 

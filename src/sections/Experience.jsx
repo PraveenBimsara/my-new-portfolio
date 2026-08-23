@@ -6,10 +6,10 @@ const experiences = [
     description:
       "Working on developing and maintaining scalable web applications for enterprise clients. Responsible for building reusable UI components, improving application performance, and integrating REST APIs and cloud services into production systems.",
     technologies: [
-      "React",
+      "React.js",
       "TypeScript",
       "Tailwind CSS",
-      ".NET",
+      "ASP.NET",
       "Azure",
       "Jira",
     ],
@@ -21,7 +21,7 @@ const experiences = [
     company: "Victory Information Pvt Ltd",
     description:
       "Assisted in developing responsive frontend interfaces and implementing backend API integrations. Gained hands-on experience in building real-world business applications and collaborating within an Agile development team.",
-    technologies: ["JavaScript", "React", "Tailwind CSS", ".NET", "Git"],
+    technologies: ["JavaScript", "React.js", "Tailwind CSS", "ASP.NET", "Git"],
     current: false,
   },
 ];
